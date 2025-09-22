@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone XYZ",
+      "price": 299.99,
+      "description": "Un smartphone haut de gamme avec un écran AMOLED et une caméra de 108 MP.",
+      "image": "images/smartphone_xyz.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ordinateur Portable ABC",
+      "price": 799.99,
+      "description": "Un ordinateur portable puissant avec un processeur Intel i7 et 16 Go de RAM.",
+      "image": "images/ordinateur_portable_abc.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Casque Audio 123",
+      "price": 149.99,
+      "description": "Un casque audio sans fil avec réduction de bruit active.",
+      "image": "images/casque_audio_123.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Montre Connectée DEF",
+      "price": 199.99,
+      "description": "Une montre connectée avec suivi de la santé et notifications intelligentes.",
+      "image": "images/montre_connectee_def.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tablette GHI",
+      "price": 349.99,
+      "description": "Une tablette légère avec un écran Retina et une autonomie de 10 heures.",
+      "image": "images/tablette_ghi.jpg"
+    }
+  ]
+}

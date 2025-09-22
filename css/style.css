@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ...existing code... */
+nav {
+    margin: 20px 0;
+}
+
+/* Ajoute ce bloc ici */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background 0.2s;
+}
+
+nav ul li a:hover {
+    background: #222;
+    border-radius: 4px;
+}
+<!-- ...existing code... -->
+<header>
+    <h1>HozaTech</h1>
+    <div class="scroll-text">
+        Un monde ITECH à votre service
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="products.html">Panier</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- ...existing code... -->
+/* ...existing code... */
+.scroll-text {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: scroll-left 10s linear infinite;
+    color: #ffd700;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* ...existing code... */
+/* ...existing code... */
